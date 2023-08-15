@@ -1,0 +1,39 @@
+.nft {
+}
+
+.nft__image {
+  margin-bottom: 15px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.nft__image a {
+  display: flex;
+  align-items: center;
+}
+
+.nft__avatar {
+  width: 100%;
+  height: auto;
+  transform: scale(1);
+  transition: 0.4s ease-in-out;
+}
+.nft__avatar:hover {
+  transform: scale(1.1);
+}
+
+.nft__content a {
+  color: var(--white);
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.nft__provider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.nft__provider svg {
+  width: 24px;
+  height: 24px;
+}

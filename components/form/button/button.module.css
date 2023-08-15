@@ -1,0 +1,51 @@
+.btn {
+  padding: 12px 20px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--white);
+  font-size: var(--base-size);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  border: 2px solid;
+  border-radius: 20px;
+  background-color: var(--purple);
+  transition: all 0.25s ease-in;
+  cursor: pointer;
+}
+
+.btn__icon {
+  display: flex;
+  align-items: center;
+}
+
+.btn--primary {
+  background-color: var(--purple);
+  border-color: var(--purple);
+}
+.btn--primary:hover,
+.btn--primary:active {
+  filter: brightness(0.8);
+}
+.btn--primary:hover .btn__icon,
+.btn--primary:active .btn__icon {
+  /* color: var(--purple); */
+}
+
+.btn--outline {
+  background-color: transparent;
+  border-color: var(--purple);
+}
+.btn--outline .btn__icon {
+  color: var(--purple);
+}
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: var(--purple);
+}
+.btn--outline:hover .btn__icon,
+.btn--outline:active .btn__icon {
+  color: var(--white);
+}

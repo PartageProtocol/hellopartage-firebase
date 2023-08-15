@@ -1,0 +1,11 @@
+.nfts {
+  padding: 40px 0;
+  background-color: var(--gray-200);
+  border-bottom: 2px solid var(--gray-100);
+}
+
+@media (min-width: 768px) {
+  .nfts {
+    padding: 60px 0;
+  }
+}

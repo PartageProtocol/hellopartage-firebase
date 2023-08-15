@@ -1,0 +1,24 @@
+.trending h2 {
+  margin-bottom: 10px;
+}
+
+.trending__list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+@media (min-width: 600px) {
+  .trending__list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .trending__list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 60px;
+  }
+}

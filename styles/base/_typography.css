@@ -1,0 +1,89 @@
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5 {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+h1 {
+  font-size: var(--heading-1);
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: var(--heading-2);
+  line-height: 1.1;
+}
+
+h3 {
+  font-size: var(--heading-3);
+  line-height: 1.2;
+}
+
+h4 {
+  font-size: var(--heading-4);
+  line-height: 1.4;
+}
+
+h5 {
+  font-size: var(--heading-5);
+  line-height: 1.6;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.h1 {
+  --heading-1: var(--heading-1);
+}
+.h2 {
+  font-size: var(--heading-3);
+}
+.h2-sub {
+  font-size: var(--heading-4);
+}
+.h3 {
+  font-size: var(--heading-4);
+}
+.h4 {
+  font-size: var(--heading-5);
+}
+.subheading {
+  font-size: var(--base-size);
+}
+.caption {
+  font-size: var(--caption);
+  line-height: 1.4;
+}
+@media (min-width: 768px) {
+  .h2-sub {
+    font-size: var(--heading-3);
+  }
+}
+@media (min-width: 1024px) {
+  .h2,
+  .h2-sub {
+    font-size: var(--heading-2);
+  }
+  .h3 {
+    font-size: var(--heading-3);
+  }
+  .h4 {
+    font-size: var(--heading-4);
+  }
+  .subheading {
+    font-size: var(--heading-5);
+  }
+  .caption {
+    font-size: var(--base-size);
+  }
+}

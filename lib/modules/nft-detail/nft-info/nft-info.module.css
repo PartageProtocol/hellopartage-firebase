@@ -1,0 +1,40 @@
+.nft {
+  width: 100%;
+}
+
+.nft__label {
+  color: var(--gray-300);
+  font-family: var(--spaceMono-font);
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.nft__category {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+.nft__tag {
+  padding: 12px 30px;
+  display: inline-block;
+  background-color: var(--gray-200);
+  border-radius: 20px;
+}
+.nft__tag span {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .nft__label {
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .nft__label {
+    font-weight: 600;
+  }
+}

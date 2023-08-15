@@ -1,0 +1,7 @@
+.stat h5 {
+  font-weight: 700;
+  font-family: var(--spaceMono-font), monospace;
+}
+.stat p {
+  text-transform: capitalize;
+}
