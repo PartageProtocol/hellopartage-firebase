@@ -32,7 +32,7 @@ const MainNavigation = () => {
     }
   }, [])
 
-  const loginHandler = `/auth/`
+  const loginHandler = `/authPage/`
 
   const logoutHandler = () => {
     signOut({ callbackUrl: "/" })

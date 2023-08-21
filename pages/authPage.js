@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
 import { getSession } from 'next-auth/react'
+
 import Auth from '@/modules/auth'
 
 const AuthPage = () => {
@@ -21,7 +22,9 @@ const AuthPage = () => {
     return <p>Loading...</p>
   }
 
-  return <Auth />
+  return (
+    <Auth />
+  )
 }
 
 export default AuthPage
