@@ -22,9 +22,9 @@ export const contractEvents = () => {
   const appConfig = new AppConfig(['publish_data'])
   const userSession = new UserSession({ appConfig })
 
-  const contractAddress = 'ST2NC54N30J95AHB55W6VY3MF9X4G07F4XCPVYKGD'
-  const contractName = 'partage-v1'
-  const network = new StacksTestnet()
+  const contractAddress = 'SP2NC54N30J95AHB55W6VY3MF9X4G07F4XFENMY51'
+  const contractName = 'partage-v1-1'
+  const network = new StacksMainnet()
 
   const openContract = async (functionName, functionArgs) => {
     try {
@@ -99,7 +99,7 @@ export const contractEvents = () => {
 
     const options = {
       contractAddress,
-      contractName: 'partage-v1',
+      contractName: 'partage-v1-1',
       functionName,
       functionArgs,
       network,
@@ -116,7 +116,7 @@ export const contractEvents = () => {
 
     const options = {
       contractAddress,
-      contractName: 'partage-v1',
+      contractName: 'partage-v1-1',
       functionName,
       functionArgs,
       network,
@@ -133,7 +133,7 @@ export const contractEvents = () => {
 
     const options = {
       contractAddress,
-      contractName: 'partage-v1',
+      contractName: 'partage-v1-1',
       functionName,
       functionArgs,
       network,
@@ -150,7 +150,7 @@ export const contractEvents = () => {
 
     const options = {
       contractAddress,
-      contractName: 'partage-v1',
+      contractName: 'partage-v1-1',
       functionName,
       functionArgs,
       network,
@@ -167,7 +167,7 @@ export const contractEvents = () => {
 
     const options = {
       contractAddress,
-      contractName: 'partage-v1',
+      contractName: 'partage-v1-1',
       functionName,
       functionArgs,
       network,
@@ -192,7 +192,7 @@ export const contractEvents = () => {
 
     const options = {
       contractAddress,
-      contractName: 'partage-v1',
+      contractName: 'partage-v1-1',
       functionName,
       functionArgs,
       network,
@@ -213,7 +213,7 @@ export const contractEvents = () => {
 
     const options = {
       contractAddress,
-      contractName: 'partage-v1',
+      contractName: 'partage-v1-1',
       functionName,
       functionArgs,
       network,
