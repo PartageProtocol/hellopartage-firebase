@@ -28,33 +28,6 @@ const Footer = () => {
       message: 'Registering for footer.',
       status: 'pending',
     })
-
-    // try {
-    //   const res = await fetch('/api/footer', {
-    //     method: 'POST',
-    //     body: JSON.stringify({ email: data.email }),
-    //     headers: {
-    //       'Content-Type': 'application/json',
-    //     },
-    //   })
-    //   if (!res.ok) {
-    //     console.log(res)
-
-    //     throw data.message || 'Something went wrong.'
-    //   }
-    // } catch (error) {
-    //   notificationCtx.showNotification({
-    //     title: 'Error!',
-    //     message: error.message || 'Something went wrong.',
-    //     status: 'error',
-    //   })
-    // } finally {
-    //   notificationCtx.showNotification({
-    //     title: 'Success!',
-    //     message: 'Successfully registered for footer.',
-    //     status: 'success',
-    //   })
-    // }
     fetch('/api/newsletter', {
       method: 'POST',
       body: JSON.stringify({ email: data.email }),
@@ -98,7 +71,7 @@ const Footer = () => {
               </Link>
             </div>
 
-            <p>Shared NFT Utilities, built on Bitcoin</p>
+            <p>Shared Utilities on Bitcoin</p>
 
             <div className={styles.footer__social__community}>
               <p>Join our social medias</p>
@@ -149,13 +122,16 @@ const Footer = () => {
 
             <ul>
               <li>
-                <a href="/">Marketplace</a>
+                <a href="/nfts">Marketplace</a>
               </li>
               <li>
-                <a href="/">Rankings</a>
+                <a href="https://medium.com/partage-btc/partages-white-paper-347674063de7">White Paper</a>
               </li>
               <li>
-                <a href="/">Connect a wallet</a>
+                <a href="https://medium.com/partage-btc/partage-tutorials-8e1f6868716d">Tutorials</a>
+              </li>
+              <li>
+                <a href="https://docs.google.com/document/d/1-ZoP8lExQZ_LDxBG0ZXdbFr7i8Ie0ymcMn6Uh-XfpZc/edit?usp=sharing">Privacy Policy</a>
               </li>
             </ul>
           </div>
@@ -194,11 +170,11 @@ const Footer = () => {
         <div className={styles.footer__bottom}>
           <a
             className="caption"
-            href="https://t.me/partagebtc"
+            href="https://ariregister.rik.ee/eng/company/14990229/CivicTech-O%C3%9C?search_id=ed8a0b4&pos=1"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Created by{` Ⓒ Partage, ${year}`}
+            All rights reserved {` Ⓒ CivicTech OÜ, ${year}`}
           </a>
         </div>
       </div>

@@ -3,7 +3,7 @@ import { Fragment, useContext } from 'react'
 import MainNavigation from './main-navigation'
 import Notification from '../ui/notification'
 import NotificationContext from '../../store/notification-context'
-import Footer from 'components/app/footer'
+import Footer from 'components/layout/footer'
 
 function Layout(props) {
   const notificationCtx = useContext(NotificationContext)
