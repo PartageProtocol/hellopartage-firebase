@@ -2,11 +2,11 @@ import Button from '../components/ui/button'
 
 import { contractEvents } from '../helpers/contract-events'
 
-function dashboardPage() {
+function adminPage() {
   const { mint, setPlatformFees, setUtilityProvider } = contractEvents()
   return (
     <div>
-      <h1>Welcome to admin page!</h1>
+      <h1>Welcome to admin panel</h1>
       <h2>Here you can mint NFT</h2>
       <div>
         <Button onClick={() => mint()}>Mint NFT</Button>
@@ -21,4 +21,4 @@ function dashboardPage() {
   )
 }
 
-export default dashboardPage
+export default adminPage

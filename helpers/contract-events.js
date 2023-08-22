@@ -50,7 +50,7 @@ export const contractEvents = () => {
   //     userSession.loadUserData().profile.stxAddress.testnet
 
   //   const nftPostConditionCode = NonFungibleConditionCode.DoesNotSend
-  //   const assetContractName = 'partage-v1'
+  //   const assetContractName = 'partage-v1-1'
   //   const assetName = 'fractions'
   //   const tokenAssetName = bufferCVFromString('fractions')
   //   const nonFungibleAssetInfo = createAssetInfo(

@@ -26,7 +26,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
           <title>Partage NFTs</title>
           <meta
             name="description"
-            content="Shared NFT Utilities built on the Bitcoin blockchain"
+            content="Shared Utilities on the Bitcoin blockchain"
           />
           <meta
             name="viewport"
