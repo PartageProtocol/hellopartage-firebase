@@ -137,8 +137,8 @@ const Footer = () => {
           </div>
 
           <div className={styles.footer__subscribe}>
-            <h3>Join Our Weekly Digest</h3>
-            <p>Get exclusive promotions & updates straight to your inbox.</p>
+            <h3>Join Our Newsletter</h3>
+            <p>Exclusive insights straight to your inbox.</p>
 
             <form
               onSubmit={handleSubmit(onSubmit)}
