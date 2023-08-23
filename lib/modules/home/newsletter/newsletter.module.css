@@ -3,6 +3,7 @@
   grid-template-columns: 1fr;
   align-items: stretch;
   gap: 30px;
+  color: #e1eed6;
 }
 
 .newsletter__image {
@@ -23,19 +24,21 @@
 
 .newsletter__form {
   margin-top: 40px;
+  color: #e1eed6;
 }
 .newsletter__form input {
   padding: 12px 20px;
   color: var(--gray-100);
   border: 1px solid var(--gray-300);
   border-radius: 20px;
-  background: var(--white);
+  background: #e1eed6;;
   font-family: var(--workSans-font);
   font-size: var(--base-size);
   line-height: 1.25;
 }
 .newsletter__form input:focus {
   outline: none;
+  color: #3b3b3b;
 }
 
 .newsletter__form__group {

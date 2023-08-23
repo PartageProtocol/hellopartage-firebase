@@ -1,5 +1,5 @@
 .header {
-  width: 100%;
+  padding: 40px 0;
   height: 5rem;
   display: flex;
   align-items: center;
@@ -23,7 +23,7 @@
 
 .nav a {
   text-decoration: none;
-  color: #ffffff;
+  color: #e1eed6;
   font-size: 1rem;
 }
 
@@ -42,7 +42,7 @@
 .header a:hover,
 .header a:active,
 .header a.active {
-  color: #ffffff;
+  color: #3b3b3b;
 }
 
 .actions {

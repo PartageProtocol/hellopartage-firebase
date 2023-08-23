@@ -2,7 +2,7 @@
   padding: 12px 20px;
   font-weight: 600;
   line-height: 1.5;
-  color: var(--white);
+  color: #2b2b2b;
   font-size: var(--base-size);
   text-decoration: none;
   display: flex;
@@ -11,7 +11,8 @@
   gap: 14px;
   border: 2px solid;
   border-radius: 20px;
-  background-color: var(--purple);
+  background-color: #fc5600;
+  border: 1px solid #fc5600;
   transition: all 0.25s ease-in;
   cursor: pointer;
 }
@@ -19,33 +20,38 @@
 .btn__icon {
   display: flex;
   align-items: center;
+  color: #2b2b2b;
 }
 
 .btn--primary {
-  background-color: var(--purple);
-  border-color: var(--purple);
+  background-color: #fc5600;
+  border-color: #fc5600;
 }
 .btn--primary:hover,
 .btn--primary:active {
-  filter: brightness(0.8);
+  background-color: #e98c00;
+    border-color: #e98c00;
 }
 .btn--primary:hover .btn__icon,
 .btn--primary:active .btn__icon {
-  /* color: var(--purple); */
+  color: #2b2b2b
 }
 
 .btn--outline {
   background-color: transparent;
-  border-color: var(--purple);
+  border-color: #6C01CD;
+  color: white;
 }
 .btn--outline .btn__icon {
-  color: var(--purple);
+  color: white;
 }
 .btn--outline:hover,
 .btn--outline:active {
-  background-color: var(--purple);
+  background-color: #6C01CD;
+  border-color: #6C01CD;
+  color: white;
 }
 .btn--outline:hover .btn__icon,
 .btn--outline:active .btn__icon {
-  color: var(--white);
+  color: white;
 }

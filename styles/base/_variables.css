@@ -6,9 +6,9 @@
   --gray-200: #3b3b3b;
   --gray-300: #858584;
   --light-gray: #cccccc;
-  --purple: #a259ff;
-  --gradient-1: linear-gradient(128.15deg, #a259ff 49.75%, #377df7 136.56%);
-  --gradient-2: linear-gradient(100.92deg, #a259ff 13.57%, #ff6250 97.65%);
+  --purple: #6C01cd;
+  --gradient-1: linear-gradient(128.15deg, #a486bd 49.75%, #e1eed6 136.56%);
+  --gradient-2: linear-gradient(100.92deg, #a486bd 13.57%, #fc5600 97.65%);
 
   --heading-1: 67px;
   --heading-2: 51px;

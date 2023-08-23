@@ -3,11 +3,13 @@
   grid-template-columns: 1fr;
   align-items: flex-start;
   gap: 40px;
+  color: #e1eed6;
 }
 
 .hero__content h1 {
   margin-bottom: 10px;
   font-size: var(--heading-4);
+  color: #e1eed6;
 }
 
 .hero__image {
@@ -31,6 +33,7 @@
   display: inline-grid;
   grid-template-columns: auto auto;
   gap: 30px;
+  color: #e1eed6;
 }
 
 @media (min-width: 768px) {
