@@ -3,7 +3,7 @@ import { Space_Mono, Work_Sans, Roboto_Mono } from 'next/font/google'
 import { SessionProvider } from 'next-auth/react'
 import Layout from 'components/layout/layout'
 import { NotificationContextProvider } from 'store/notification-context'
-import 'styles/globals.css'
+import '../styles/globals.css'
 
 const workSans = Work_Sans({
   subsets: ['latin'],
