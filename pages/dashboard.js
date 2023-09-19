@@ -27,14 +27,13 @@ function dashboardPage() {
 
   return (
     <div>
-      <h1>User Dashboard (rankings + my-favorites)</h1>
-      <h2>combining last sales page + my favorites from react project</h2>
+      <h1>User Dashboard</h1>
       <p>Testnet adress is: {adressTest}</p>
       <div>
         <Button onClick={() => listNft()}>List NFT</Button>
         <Button>Unlist NFT</Button>
         <Button onClick={() => transferNFT()}>Transfer NFT</Button>
-        <Button onClick={() => transfer()}>Transfer</Button>
+        <Button onClick={() => transfer()}>Transfer Fractions</Button>
         <Button onClick={() => burn()}>Burn NFT</Button>
         <Button onClick={() => fractionalize()}>Fractionalize NFT</Button>
         <Button onClick={() => listFractions()}>List Fractions</Button>
