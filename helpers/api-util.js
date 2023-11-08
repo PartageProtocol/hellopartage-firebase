@@ -1,7 +1,7 @@
 // nfts
 export async function getAllNfts() {
   const response = await fetch(
-    'https://partagedb-default-rtdb.firebaseio.com/nfts.json'
+    'https://partage-4154c-default-rtdb.europe-west1.firebasedatabase.app/nfts.json'
   )
   const data = await response.json()
 
@@ -43,7 +43,7 @@ export async function getFilteredNfts(searchFilter) {
 // providers
 export async function getAllProviders() {
   const response = await fetch(
-    'https://partagedb-default-rtdb.firebaseio.com/providers.json'
+    'https://partage-4154c-default-rtdb.europe-west1.firebasedatabase.app/providers.json'
   )
   const data = await response.json()
 
